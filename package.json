@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "pnpm run \"/dev:/\"",
+		"dev:tsc": "tsc --watch --preserveWatchOutput",
+		"dev:node": "node --enable-source-maps --watch dist/index.js",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@types/node": "^24.3.0",
+		"jest": "^30.0.5",
+		"typescript": "^5.9.2"
+	}
+}
